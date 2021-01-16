@@ -3,7 +3,7 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
+    background-color: #af0069;
     color: #fff;
 }
 
@@ -79,21 +79,20 @@ p {
 }
 
 .icon {
-    color: #ef8172;
+    color: #55b3b1;
     margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #ff4c68;
+    color: #af0069;
 }
 
 
 /*Testimonial Segment*/
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #55b3b1;
     color: #fff;
 
 }
@@ -104,8 +103,14 @@ p {
     margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+
 #press {
-    background-color: #ef8172;
+    background-color: #55b3b1;
     text-align: center;
     padding-bottom: 3%;
 }
