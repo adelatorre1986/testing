@@ -29,7 +29,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%; /*top left-right bottom */
 }
 
 /*Navigation Bar*/
@@ -65,12 +65,16 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /*Features Section*/
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -79,7 +83,7 @@ p {
 }
 
 .icon {
-    color: #55b3b1;
+    color: #ec5858;
     margin-bottom: 1rem;
 }
 
@@ -92,7 +96,7 @@ p {
 
 #testimonials {
     text-align: center;
-    background-color: #55b3b1;
+    background-color: #ec5858;
     color: #fff;
 
 }
@@ -110,7 +114,7 @@ p {
 
 
 #press {
-    background-color: #55b3b1;
+    background-color: #ec5858;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -119,6 +123,7 @@ p {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+
 }
 
 /*Pricing Section*/
@@ -130,4 +135,14 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+   #title {
+    text-align: center;
+}
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
